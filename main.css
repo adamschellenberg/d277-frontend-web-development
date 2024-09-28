@@ -1,0 +1,77 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.jumbotron-background {
+    width: 100%;
+    filter: brightness(50%);
+}
+.jumbotron-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+}
+section{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.nav-brand{
+    display: flex;
+    align-items: center;
+}
+
+.nav-brand a {
+    display: flex;
+    align-items: center;
+}
+
+.brand-logo {
+    margin-left: 8px;
+    height: 32px;
+}
+
+.nav-menu {
+    display: flex;
+    padding-left: 8%;
+}
+
+.nav-item {
+    padding: 15px 20px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    
+}
+
+.nav-item:hover {
+    background-color: #575757;
+}
+
+aside {
+    float: right;
+    width: 20%;
+    height:fit-content;
+    padding: 15px;
+    border: 2px dashed #333;
+    margin-bottom: 15px;
+}
+
+#band-table {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

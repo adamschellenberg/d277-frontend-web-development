@@ -1,0 +1,21 @@
+The following content was retrieved from outside sources:
+
+Mail.html:
+    Image of Horseshoe Bend: https://unsplash.com/photos/aerial-photography-of-rock-formations-ajQqVNXdA6w
+    Canyon logo: https://www.svgrepo.com/svg/229548/canyon
+
+Phoenix.html:
+    Image of Downtown Phoenix: https://unsplash.com/photos/people-walking-on-pedestrian-lane-near-white-and-red-train-during-daytime-OJefaNf1HH0
+    Canyon logo: https://www.svgrepo.com/svg/229548/canyon
+
+Gilbert.html:
+    Image of SanTan Village Mall: https://www.azcentral.com/picture-gallery/news/local/gilbert/2023/04/28/santan-village-gilbert-through-years/11731322002/
+    Canyon logo: https://www.svgrepo.com/svg/229548/canyon
+
+Mesa.html:
+    Image of Mesa Arts Center: https://www.irwinseating.com/case-studies/mesa-arts-center
+    Canyon logo: https://www.svgrepo.com/svg/229548/canyon
+
+Contact.html:
+    Image of holiday event at Phoenix: https://www.visitphoenix.com/events/annual-events/holiday-events/
+    Canyon logo: https://www.svgrepo.com/svg/229548/canyon

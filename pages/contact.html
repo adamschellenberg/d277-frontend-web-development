@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notice Me, Senpai</title>
+    <link rel="stylesheet" href="../main.css">
+
+    <style>
+        form {
+            max-width: 500px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;   
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        textarea {
+            height: 200px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-brand"><a href="../main.html">Arizona <img class="brand-logo" src="../images/logo.svg" alt="canyon logo" /></a><!-- svg logo from https://www.svgrepo.com/svg/229548/canyon --></div>
+        <div class="nav-menu">
+            <div class="nav-item"><a href="phoenix.html">Phoenix</a></div>
+            <div class="nav-item"><a href="gilbert.html">Gilbert</a></div>
+            <div class="nav-item"><a href="mesa.html">Mesa</a></div>
+            <div class="nav-item active"><a href="contact.html">Contact Us</a></div>
+        </div>
+    </div>
+
+    <header>
+        <img class="jumbotron-background" src="/TaskTwo/d277-front-end-web-development/images/contact.png" alt="Crowd at Phoenix Holiday Event" title="Phoenix Holiday Event">
+        <div class="jumbotron-text"><h1>Contact Us</h1></div>
+    </header>
+
+    <div class="main">
+        <section>
+            <form>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="firstname" placeholder="Enter your first name here...">
+
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="lastname" placeholder="Enter your last name here...">
+
+                <label for="email">Email Address</label>
+                <input type="text" id="email" name="email" placeholder="Enter your email here...">
+
+                <label for="email-confirm">Confirm Email Address</label>
+                <input type="text" id="email-confirm" name="email-confirm" placeholder="Confirm Email Address...">
+
+                <label for="message">Question or Concern</label>
+                <textarea type="text" id="message" name="message" placeholder="Enter your message here..."></textarea>
+
+                <button type="button" onclick="compareEmails()">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        
+    </footer>
+
+    <script>
+        function compareEmails() {
+            var email = document.getElementById('email').value;
+            var emailConfirm = document.getElementById('email-confirm').value;
+
+            if (email !== emailConfirm) {
+                alert("Wowwwwwwww, those email addresses don't even match. Like, not even close.");
+            }
+        }
+    </script>
+    
+</body>
+</html>
